@@ -1,45 +1,107 @@
-body{
-    margin:0px;
+body {
+    margin: 0px;
     padding: 0px;
 }
 
 
 
-.heading{
-    width: 1320px; 
-    height:600px; 
-    background-image:linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('../images/Banner\ Image.png');;
-    background-size: cover; 
+.heading {
+    width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url('../images/Banner\ Image.png');
+    ;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     margin: 50px 140px 50px 140px;
     border-radius: 16px;
 
 }
-.banner-text{
-    padding-top: 127px ;
+
+.banner-text {
+    padding-top: 127px;
     padding-left: 384px;
     padding-right: 384px;
-    gap:0;
+    gap: 0;
 }
 
-.banner-subtitle{
+.banner-subtitle {
     color: #FFFFFF;
-font-family: Merriweather;
-font-size: 25px;
-font-weight: 400;
+    font-family: Merriweather;
+    font-size: 25px;
+    font-weight: 400;
 
-letter-spacing: 0%;
-text-align: center;
+    letter-spacing: 0%;
+    text-align: center;
 
 }
-.banner-title{
+
+.banner-title {
     color: rgb(255, 255, 255);
-font-family: Merriweather;
-font-size: 60px;
-font-weight: 900;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-weight: 900;
+
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+/* main section */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.first-middle {
+    position: absolute;
+    width: 802.9px;
+    height: 806px;
+
+
+}
+
+.top-mid-text {
+    text-align: center;
+}
+
+.img-modify {
+    position:
+        width: 550px;
+    height: 350px;
+    justify-content: center;
+    padding-left: 300px;
+    padding-right: 334px
+}
+
+.off-title {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 0%;
+}
+.para-title{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 0%;
+}
+
+.middle-subtitle{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 30px;
+font-weight: 700;
 
 letter-spacing: 0%;
 text-align: center;
-
+margin-top: 19px;
+margin-bottom: 50px;
 }
