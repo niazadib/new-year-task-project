@@ -1,4 +1,4 @@
-body {
+* {
     margin: 0px;
     padding: 0px;
 }
@@ -84,24 +84,80 @@ main {
     text-align: center;
     margin-bottom: 0%;
 }
-.para-title{
+
+.para-title {
     color: rgb(255, 0, 0);
-font-family: Inter;
-font-size: 14px;
-font-weight: 500;
-letter-spacing: 0%;
-text-align: center;
-margin-bottom: 0%;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 0%;
 }
 
-.middle-subtitle{
+.middle-subtitle {
     color: rgb(7, 2, 17);
-font-family: Inter;
-font-size: 30px;
-font-weight: 700;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
 
-letter-spacing: 0%;
-text-align: center;
-margin-top: 19px;
-margin-bottom: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 19px;
+    margin-bottom: 50px;
+}
+
+.second-midle {
+
+    background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0)), url('../images/Vectorrr.png');
+    width: 1200px;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin-top: 120px;
+    display: flex;
+}
+
+.wc-title {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 44px;
+    font-weight: 900;
+    letter-spacing: 11%;
+    text-align: left;
+    width: 400px;
+    padding-left: 115px;
+    padding-top: 115px;
+}
+.paragraph{
+    color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 30px;
+width: 550;
+text-align: left;
+padding-left: 115px;
+padding-top: 30px;
+padding-right: 100px;
+}
+.btn{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 115px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 48px;
+}
+.year-img{
+    width: 320px;
+    height: 320px;
+    padding-top:60px;
+    padding-right: 108px;
+    padding-bottom: 60px;
 }
