@@ -131,19 +131,21 @@ main {
     padding-left: 115px;
     padding-top: 115px;
 }
-.paragraph{
+
+.paragraph {
     color: rgba(255, 255, 255, 0.8);
-font-family: Inter;
-font-size: 14px;
-font-weight: 400;
-line-height: 30px;
-width: 550;
-text-align: left;
-padding-left: 115px;
-padding-top: 30px;
-padding-right: 100px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 550;
+    text-align: left;
+    padding-left: 115px;
+    padding-top: 30px;
+    padding-right: 100px;
 }
-.btn{
+
+.btn {
     color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 12px;
@@ -154,10 +156,59 @@ padding-right: 100px;
     text-transform: uppercase;
     padding-top: 48px;
 }
-.year-img{
+
+.year-img {
     width: 320px;
     height: 320px;
-    padding-top:60px;
+    padding-top: 60px;
     padding-right: 108px;
     padding-bottom: 60px;
 }
+
+.third-middle {
+    position: absolute;
+    width: 1200px;
+    height: 482px;
+    border-radius: 16px;
+
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+
+    margin-top: 120px;
+    
+}
+.location{
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 40px;
+    
+}
+.red{
+    color: #FF0000;
+}
+.pad{
+    padding-top: 100px;
+}
+.buton{
+    padding-left: 540px;
+    margin-top: 40px;
+    justify-content: center;
+    
+}
+.join-btn{
+  background-color: #FF0000;
+  width: 125px;
+  height: 40px;
+  border-color:#FF0000;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 15px;
+font-weight: 700;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+} 
